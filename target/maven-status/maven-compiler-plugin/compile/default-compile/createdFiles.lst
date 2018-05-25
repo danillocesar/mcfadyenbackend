@@ -1,0 +1,14 @@
+com\mcfadyen\controller\ShoppingCartController.class
+com\mcfadyen\service\ShoppingCartService.class
+com\mcfadyen\service\impl\ProductServiceImpl.class
+com\mcfadyen\service\HttpSessionService.class
+com\mcfadyen\shop\model\CommerceItem.class
+com\mcfadyen\service\impl\ShoppingCartServiceImpl.class
+com\mcfadyen\Application.class
+com\mcfadyen\controller\ProductController.class
+com\mcfadyen\dao\AbstractDao.class
+com\mcfadyen\service\ProductService.class
+com\mcfadyen\utils\UUIDBean.class
+com\mcfadyen\shop\model\Product.class
+com\mcfadyen\shop\model\ShoppingCart.class
+com\mcfadyen\dao\ProductDao.class
