@@ -37,9 +37,19 @@ public class ShoppingCart implements Serializable{
 		this.items.remove(i);
 	}
 	public CommerceItem findItemById(String id) {
-	    return this.items.stream().filter(item -> id.equals(item.getId())).findFirst().orElse(null);
+		for(CommerceItem i : this.items){
+			if(i.getId().equals(id)){
+				return i;
+			}
+		}
+		return null;
 	}
 	public CommerceItem findItemByProduct(Integer productId) {
-	    return this.items.stream().filter(item -> productId == item.getProduct().getId()).findFirst().orElse(null);
+		for(CommerceItem i : this.items){
+			if(i.getProduct().getId().intValue() == productId.intValue()){
+				return i;
+			}
+		}
+		return null;
 	}
 }
